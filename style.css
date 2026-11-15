@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    text-decoration: none;
+}
+.box{
+    flex: 1 1 auto;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.box1{
+    background-color: #1F2937;
+}
+.header{
+    padding-top: 20px;
+}
+.headerbutton{
+    color: #e5e7eb;
+}
+.toplinks{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    gap: 20px;
+}
+
+.LogoText{
+    color: #F9FAF8;
+    align-self: flex-start;
+    margin-left: 0;
+    margin-right: auto;
+    font-size: 24px;
+    font-weight: 700;
+}
+.headerLowerSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.headerLowerSectionFirstBox{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: auto;
+}
+.headerLowerSectionFirstBoxHeadText{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+.headerLowerSectionFirstBoxBodyText{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+.headerLowerSectionImageBox{
+    display: flex;
+    background-color: #7f8792;
+    width: 350px;
+    height: 150px;
+    color: azure;
+}
+.placeholderForImage{
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    color: #F9FAF8;
+    background-color: #3882f6;
+    width: 90px;
+    height: 20px;
+    border-radius: 5px;
+    border-style: none;
+    text-align: center;
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 54px;
+}
+/*This to define the boxes*/
+.boxSectionBox{
+    height: 4cm;
+    width: 4cm;
+    border: 2px blue solid;
+    border-radius: 15px;
+}
+/* This to combine the Box and the written texts and make them column(s)*/
+.boxText{
+    display: flex;
+    flex-direction: column;
+    width: 4cm;
+    height: auto;
+}
+/*This to make the A ROW from those multiple columns from the .boxtext*/
+.boxSection{
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+}
+.boxbox2container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.box2Heading{
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+    /*border: 2px solid green;*/
+    padding: 20px;
+}
+.box3{
+    background-color: #e5e7eb;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    font-style: italic;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.quote{
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+.box4{
+    padding-left: 6cm;
+    padding-right: 6cm;
+    padding-top: 2cm;
+    padding-bottom: 2cm;
+}
+.CallToActionSection{
+    display: flex;
+    flex-direction: row;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    justify-content: space-between;
+    align-content: center;
+    flex-grow: 1;
+    padding-left: 2cm;
+    padding-right: 2cm;
+    padding-top: 1cm;
+    padding-bottom: 1cm;
+    border-radius: 15px;
+}
+.boldLooking{
+    font-weight: 800;
+    font-style: normal;
+}
+.box4SignupButton{
+    border: 2px solid #e5e7eb;
+    text-align: center;
+    border-radius: 10px;
+    height: 1cm;
+    width: 2.5cm;
+}
+footer{
+    background-color: #1F2937;
+    text-align: center;
+    color: #e5e7eb;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
